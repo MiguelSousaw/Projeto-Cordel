@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'OP';
+    src: url(fontes/Passion_One/PassionOne-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Siri';
+    src: url(fontes/Sriracha/Sriracha-Regular.ttf) format(truetype);
+}
+
+body{
+    background-color: rgb(230, 225, 225);
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header > h1{
+    font-family: 'OP';
+    font-size: 10vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
+header > p{
+    font-family: 'Arial';
+    font-weight: normal;
+    padding-bottom: 50px;
+}
+
+header p > a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+
+section{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 3.5vw;
+    font-family: 'siri';
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.normal > p{
+    padding-bottom: 2em;
+}
+
+#imagem1{
+    background-image: url(imagens/pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 98%;
+}
+
+#imagem1 > article{
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    width: 41vw;
+    padding: 20px 0 0 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.284);
+}
+
+#imagem2{
+    background-image: url(imagens/pacote-d012/imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 98%;
+}
+
+#imagem2 > article{
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    width: 42vw;
+    padding: 20px 0 0 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.284);
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
